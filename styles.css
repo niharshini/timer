@@ -28,5 +28,7 @@ input{
     border-radius: 3px;
     border-width: 1px;
     padding: 2px 5px;
-
+}
+#message{
+    font-size: 20px;
 }
