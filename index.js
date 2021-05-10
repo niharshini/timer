@@ -28,6 +28,7 @@ function onResume() {
         if(distance<=0) {
             clearInterval(interval);
             $("#timer").html('00:00:00');
+            document.getElementById("message").innerHTML="Your timer has finished!!";
         }
     }, 500);
     
